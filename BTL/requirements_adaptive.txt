@@ -1,0 +1,10 @@
+# Optional deps for adaptive runtime/testing
+psutil
+py-cpuinfo
+numpy
+opencv-python
+scipy
+onnxruntime
+torch
+onnx
+onnx-simplifier
