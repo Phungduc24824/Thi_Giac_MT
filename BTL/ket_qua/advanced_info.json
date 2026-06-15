@@ -1,0 +1,28 @@
+{
+  "model_type": "advanced",
+  "input_shape": [
+    1,
+    3,
+    4,
+    32,
+    32
+  ],
+  "output_shape": [
+    4
+  ],
+  "model_size_mb": 9.09,
+  "device": "cpu",
+  "timestamp": "2026-06-13T11:49:49.385783",
+  "metrics": {
+    "capture_fps": 9.14,
+    "preprocess_fps": 7.45,
+    "inference_fps": 31.4,
+    "display_fps": 1.65,
+    "inference_latency_ms": 21.229,
+    "throughput_frames_per_sec": 1.65,
+    "gpu_memory_used_mb": 0.0,
+    "cpu_percent": 69.2,
+    "total_frames_processed": 14,
+    "total_inferences": 14
+  }
+}

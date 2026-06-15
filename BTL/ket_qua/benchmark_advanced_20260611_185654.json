@@ -1,0 +1,50 @@
+{
+  "model_type": "advanced",
+  "device": "cpu",
+  "window_size": 24,
+  "timestamp": "2026-06-11 18:56:27",
+  "latency": {
+    "mean_latency_ms": 57.11523771286011,
+    "min_latency_ms": 33.994436264038086,
+    "max_latency_ms": 87.07499504089355,
+    "std_latency_ms": 9.569338028013995,
+    "p95_latency_ms": 75.1455783843994,
+    "p99_latency_ms": 84.23644542694093,
+    "throughput_fps": 17.508462540721236
+  },
+  "memory": {
+    "model_size_mb": 9.09274,
+    "model_parameters": 2273185,
+    "gpu_memory_allocated_mb": 0.0,
+    "gpu_memory_reserved_mb": 0.0,
+    "gpu_peak_memory_mb": 0.0
+  },
+  "batch_sizes": {
+    "batch_1": {
+      "latency_ms": 48.526,
+      "throughput_fps": 20.61
+    },
+    "batch_2": {
+      "latency_ms": 48.185,
+      "throughput_fps": 41.51
+    },
+    "batch_4": {
+      "latency_ms": 94.282,
+      "throughput_fps": 42.43
+    },
+    "batch_8": {
+      "latency_ms": 173.113,
+      "throughput_fps": 46.21
+    }
+  },
+  "export": {
+    "torchscript": {
+      "path": "C:\\Users\\hipn4\\OneDrive\\Documents\\thi_gac_may_tinh\\BTL\\ket_qua\\advanced_torchscript.pt",
+      "size_mb": 9.17
+    },
+    "state_dict": {
+      "path": "C:\\Users\\hipn4\\OneDrive\\Documents\\thi_gac_may_tinh\\BTL\\ket_qua\\advanced_state_dict.pth",
+      "size_mb": 9.12
+    }
+  }
+}
